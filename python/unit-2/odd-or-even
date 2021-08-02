@@ -1,0 +1,9 @@
+number = input("Enter a number:")
+if int(number) == 0:
+  print("Zero is neither even nor odd.")
+elif int(number)%4 == 0:
+  print("This number is even. It's also divisible by 4!")
+elif int(number)%4 == 2:
+  print("This number is even.")
+else:
+  print("This number is odd.")
